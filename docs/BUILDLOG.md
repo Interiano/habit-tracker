@@ -31,3 +31,17 @@ aws configure
 aws sts get-caller-identity
     confirm it's IAM user, not root <--
 
+I accidently changed the secret accest key and had to remake it. 
+The guide I had claude make me used Linux commands, so random.
+I had to delete a redundant policy key and the altered key. It's fine.
+I just had to apply the new key to get to be able to use AWS CLI
+
+create remote Terraform state backend
+state lives in S3 (versioned) dynamodb lock table 
+I did these commands with AWS CLI, JSON code
+
+I put together the dynamodb and applied versioning
+To Do for 8/28/26:
+4. 
+5. 
+
